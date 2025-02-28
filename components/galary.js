@@ -8,7 +8,7 @@ const Gallery = () => {
   // Array of image objects from 1 to 16
   const initialImages = Array.from({ length: 16 }, (_, i) => ({
     id: i + 1,
-    src: `/Images/gallery${i + 1}.jpg`,
+    src: `/Images/galary${i + 1}.jpg`,
     alt: `Gallery image ${i + 1}`,
     position: i, // Store the current position
   }));
