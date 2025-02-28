@@ -28,11 +28,13 @@ const Footer = () => {
             {/* Grouped GitHub and Docs */}
             <div className="flex items-center gap-4 bg-gray-800/30 rounded-full px-4 py-2">
               <Link
-                href="#"
+                href="https://github.com/ArNAB-0053/IMAGE-NATION"
+                target="_blank"
                 className="text-gray-400 hover:text-purple-300 transition-colors duration-300 ease-out"
               >
                 GitHub
               </Link>
+              <div className="h-[1rem] w-[0.1px] bg-purple-300/50"></div>
               <Link
                 href="#"
                 className="text-gray-400 hover:text-purple-300 transition-colors duration-300 ease-out"
